@@ -16,7 +16,6 @@ public class JelloWorld {
 //
 //    System.out.println(ageInADecade);
 
-
 //    boolean isLifeMeaningless = true;
 //
 //    System.out.println(isLifeMeaningless);
@@ -62,22 +61,51 @@ public class JelloWorld {
 //
 //    System.out.println(countries.toString());
 
-    Map map = new HashMap();
+//    Map map = new HashMap();
+//
+//    map.put("Fasha", "Vader");
+//    map.put("Maza", "Melon");
+//    map.put("Offspring", "demon!");
+//
+//
+//
+//    System.out.println(map.size());
 
-    map.put("Fasha", "Vader");
-    map.put("Maza", "Melon");
-    map.put("Offspring", "demon!");
+//    int age = 19;
+//
+//    if (age == 18) {
+//
+//      System.out.println("user is of age");
+//
+//    } else if (age < 18) {
+//
+//      System.out.println("user is a minor");
+//
+//    } else {
+//
+//      System.out.println("user is over 18");
+//  }
+//
 
+    int[] numNums = {7, 7};
 
+    if (numNums[1] > numNums[0]) {
 
-    System.out.println(map.size());
+      System.out.println("it is");
+
+    } else if (numNums[0] > numNums[1]){
+
+      System.out.println("it is not");
+
+    } else {
+
+      System.out.println("they equal");
+    }
 
 
   }
 
-
-
-
-
-
 }
+
+
+
