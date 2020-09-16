@@ -1,5 +1,11 @@
 package edu.cnm.deepdive;
 
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class JelloWorld {
 
   public static void main(String[] args) {
@@ -31,13 +37,42 @@ public class JelloWorld {
 //
 //    System.out.println(gString.length());
 
-    String firstName = "ever";
+//    String firstName = "ever";
+//
+//    String lastName = "greatest";
+//
+//    int nameLength = firstName.length() + lastName.length();
+//
+//    System.out.println("total characters = " + nameLength);
 
-    String lastName = "greatest";
+//    int[] primeNumbers = {2,3,5,7,11,13};
+//
+//    System.out.println(primeNumbers.length);
 
-    int forever = firstName.length() + lastName.length();
+//    List countries = new ArrayList();
+//
+//    countries.add("usa");
+//    countries.add("canada");
+//    countries.add("mexico");
+//    countries.add("france");
+//
+//    countries.remove(2);
+//
+//    countries.add("germany");
+//
+//    System.out.println(countries.toString());
 
-    System.out.println("total characters = " + forever);
+    Map map = new HashMap();
+
+    map.put("Fasha", "Vader");
+    map.put("Maza", "Melon");
+    map.put("Offspring", "demon!");
+
+
+
+    System.out.println(map.size());
+
+
   }
 
 
