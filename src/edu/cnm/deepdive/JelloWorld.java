@@ -87,7 +87,7 @@ public class JelloWorld {
 //  }
 //
 
-    int[] numNums = {7, 7};
+    int[] numNums = {7, 8};
 
     if (numNums[1] > numNums[0]) {
 
