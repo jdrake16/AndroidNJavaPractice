@@ -2,7 +2,7 @@ package edu.cnm.deepdive;
 
 public class DemoTwo {
 
-  static int lives = 3;
+  static int lives = 5;
   static int coins = 90;
 
   public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class DemoTwo {
       lives --; // same as lives = lives - 1;
     }
 
-    lives = 3;
+    lives = 5;
 
     do {    // "do while" executes code and then checks condition
       coins += 20;
