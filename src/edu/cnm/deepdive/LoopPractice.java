@@ -64,7 +64,7 @@ public class LoopPractice {
 //      System.out.println(name);
 //    }
 
-    List<String> familia = new ArrayList<>();
+    List<String> familia = new ArrayList<String>();
 
     familia.add("me");
     familia.add("myself");
