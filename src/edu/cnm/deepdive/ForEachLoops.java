@@ -6,7 +6,7 @@ public class ForEachLoops {
 
   static int[][] table = {
       {1, 2, 3},
-      {4, 5, 6},
+      {4, 5, 6, 69},
       {7, 8, 9}
   };
 
